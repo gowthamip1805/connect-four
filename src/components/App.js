@@ -5,6 +5,7 @@ import ScreenOne from "./one/ScreenOne";
 import ScreenTwo from "./two/ScreenTwo";
 import ScreenThree from "./three/ScreenThree";
 import App1 from "../App";
+require.context('../images', true, /\.png$/);
 
 function App() {
   return (
